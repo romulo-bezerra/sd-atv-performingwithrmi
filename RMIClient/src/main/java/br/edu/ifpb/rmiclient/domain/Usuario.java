@@ -1,4 +1,4 @@
-package br.edu.ifpb.sdatvperformingwithrmi.domain;
+package br.edu.ifpb.rmiclient.domain;
 
 import java.util.Objects;
 
@@ -41,7 +41,7 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "br.edu.ifpb.sdatvperformingwithrmi.domain.Usuario{" +
+        return "br.edu.ifpb.rmiclient.domain.Usuario{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", atualizando=" + atualizando +

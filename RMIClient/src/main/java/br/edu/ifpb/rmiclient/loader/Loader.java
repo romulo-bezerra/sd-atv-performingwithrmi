@@ -1,12 +1,12 @@
-package br.edu.ifpb.sdatvperformingwithrmi.loader;
+package br.edu.ifpb.rmiclient.loader;
 
-import br.edu.ifpb.sdatvperformingwithrmi.dao.TimeWaitApplicationDao;
-import br.edu.ifpb.sdatvperformingwithrmi.domain.Usuario;
-import br.edu.ifpb.sdatvperformingwithrmi.factory.UserIdFactory;
-import br.edu.ifpb.sdatvperformingwithrmi.thread.InserterUser;
-import br.edu.ifpb.sdatvperformingwithrmi.thread.RemoverUser;
-import br.edu.ifpb.sdatvperformingwithrmi.thread.ThreadRootController;
-import br.edu.ifpb.sdatvperformingwithrmi.thread.UpdaterUser;
+import br.edu.ifpb.rmiclient.dao.TimeWaitApplicationDao;
+import br.edu.ifpb.rmiclient.domain.Usuario;
+import br.edu.ifpb.rmiclient.factory.UserIdFactory;
+import br.edu.ifpb.rmiclient.thread.InserterUser;
+import br.edu.ifpb.rmiclient.thread.RemoverUser;
+import br.edu.ifpb.rmiclient.thread.ThreadRootController;
+import br.edu.ifpb.rmiclient.thread.UpdaterUser;
 
 import java.net.UnknownHostException;
 import java.util.Random;

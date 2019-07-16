@@ -1,4 +1,4 @@
-package br.edu.ifpb.sdatvperformingwithrmi.factory;
+package br.edu.ifpb.rmiclient.factory;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

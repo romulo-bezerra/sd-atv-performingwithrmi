@@ -1,4 +1,4 @@
-package br.edu.ifpb.sdatvperformingwithrmi.factory;
+package br.edu.ifpb.rmiclient.factory;
 
 import java.io.Serializable;
 import java.net.InetAddress;

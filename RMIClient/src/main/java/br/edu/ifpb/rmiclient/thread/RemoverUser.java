@@ -1,6 +1,6 @@
-package br.edu.ifpb.sdatvperformingwithrmi.thread;
+package br.edu.ifpb.rmiclient.thread;
 
-import br.edu.ifpb.sdatvperformingwithrmi.dao.UsuarioDao;
+import br.edu.ifpb.rmiclient.dao.UsuarioDao;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.logging.Logger;

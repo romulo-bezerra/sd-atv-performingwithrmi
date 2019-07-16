@@ -1,6 +1,6 @@
-package br.edu.ifpb.sdatvperformingwithrmi.dao;
+package br.edu.ifpb.rmiclient.dao;
 
-import br.edu.ifpb.sdatvperformingwithrmi.factory.ConFactoryPostgreSQL;
+import br.edu.ifpb.rmiclient.factory.ConFactoryPostgreSQL;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

@@ -1,6 +1,6 @@
-package br.edu.ifpb.sdatvperformingwithrmi.thread;
+package br.edu.ifpb.rmiclient.thread;
 
-import br.edu.ifpb.sdatvperformingwithrmi.loader.Loader;
+import br.edu.ifpb.rmiclient.loader.Loader;
 
 import java.util.Scanner;
 import java.util.logging.Logger;
