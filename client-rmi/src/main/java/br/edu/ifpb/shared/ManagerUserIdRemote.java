@@ -14,7 +14,7 @@ public class ManagerUserIdRemote {
     public ManagerUserIdRemote(){
         try {
             this.registry = LocateRegistry.getRegistry();
-            this.managerUserId = (ManagerUserId) registry.lookup("ServerChat");
+            this.managerUserId = (ManagerUserId) registry.lookup("RMI Application");
         } catch (RemoteException e) {
             System.out.println("Falha na conexão com o servidor" + e.getMessage());
         } catch (NotBoundException e) {

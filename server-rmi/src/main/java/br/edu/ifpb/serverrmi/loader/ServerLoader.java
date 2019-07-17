@@ -15,7 +15,7 @@ public class ServerLoader {
             ManagerUserId idGenerator = new ManagerUserIdImpl();
             ManagerUserId stub = (ManagerUserId) UnicastRemoteObject.exportObject(idGenerator,0);
             Registry registry = LocateRegistry.createRegistry(1099);
-            registry.rebind("ServerChat", stub);
+            registry.rebind("RMI Application", stub);
             System.out.println("Servidor ligado");
         } catch (UnknownHostException e) {
             System.out.println("Host nao encontrado\n" + e.getMessage());
