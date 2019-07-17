@@ -10,7 +10,7 @@ A simple example of performance with Java RMI
 - Cada projeto deve representar uma aplicação.
 
 #### Passos para Execução
- > 1. Rode src/main/docker/docker-compose.yml com o comando `docker-compose up -d` 
+ > 1. Execute no diretório docker o arquivo `docker-compose.yml` com o comando `docker-compose up -d` 
  para criar e inicializar o banco PostgreSQL
  > 2. Utilizando a IDE construa o projeto __`shared`__
  > 3. Utilizando a IDE construa e execute o projeto __`server-rmi`__ para inicializa o servidor

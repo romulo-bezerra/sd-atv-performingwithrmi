@@ -28,7 +28,7 @@ public class ClientLoader {
     public Condition lockCondition;
     public boolean isPaused = false;
 
-    public ClientLoader() throws UnknownHostException {
+    public ClientLoader() {
         this.log = Logger.getLogger(this.getClass().getName());
         this.queueInsert = new ArrayBlockingQueue<String>(1000);
         this.queueUpdate = new ArrayBlockingQueue<String>(1000);
