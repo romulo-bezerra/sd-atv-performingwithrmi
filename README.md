@@ -15,3 +15,9 @@ A simple example of performance with Java RMI
  > 2. Utilizando a IDE construa o projeto __`shared`__
  > 3. Utilizando a IDE construa e execute o projeto __`server-rmi`__ para inicializa o servidor
  > 4. Utilizando a IDE construa o projeto __`client-rmi`__ e execute duas instancias para inicializar dois clientes
+
+#### Para Acesso ao Banco no Terminal
+ > 1. Identifique o ID do container instanciado com o comando __`docker container ls`__
+ > 2. Execute o comando __`docker exec -it <container_id> /bin/bash`__ para ter acesso a sessão do banco de modo iterativo com psql
+ > 3. Para acessar o banco execute o comando __`psql -U postgres <bank_name>`__. `bank_name` = 'managementuser'.
+ > 4. Pronto para executar comandos SQL seguidos de ponto e virgula (;).
